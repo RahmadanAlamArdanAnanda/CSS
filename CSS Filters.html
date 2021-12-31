@@ -1,0 +1,41 @@
+Which of the following is a filter function?
+invert
+
+
+Fill in the blanks to rotate the hue by 80 degrees.
+.filtered {
+filter: hue-rotate(80 deg);
+}
+
+
+Fill in the blanks to change the saturation of an image by 55% and partially invert it.
+.modified {
+filter: saturate(55%) invert(70%);
+}
+
+
+Fill in the blanks to create an image which is completely grayscale and has a grey shadow effect.
+.filtered {
+filter: grayscale(
+100%)
+drop-shadow
+(5px 9px 2px gray);
+}
+
+
+Fill in the blanks to adjust the brightness of an image to 110% and apply a blur effect to it.
+.filtered {
+filter: blur(5px) brightness(110%);
+}
+
+
+Fill in the blanks to make the image circled and blurred with 30% sepia applied.
+img {
+border-radius: 50%;
+filter: 
+sepia(30%) 
+drop-shadow(5px 9px 2px red)  
+blur(1px);
+width: 100px;
+height: 100px;
+}
